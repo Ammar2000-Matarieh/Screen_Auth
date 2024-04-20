@@ -7,9 +7,8 @@ class AppRun extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Screen Auth App',
-      home: LoginScreen(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Screen Auth App',
+        home: LoginScreen());
   }
 }

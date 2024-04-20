@@ -69,7 +69,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                         border: OutlineInputBorder(
                             borderSide: const BorderSide(color: Colors.black),
                             borderRadius: BorderRadius.circular(18))))),
-            SizedBox(height: 70),
+            const SizedBox(height: 70),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.grey,
@@ -79,6 +79,15 @@ class _LoginWidgetState extends State<LoginWidget> {
                 onPressed: () {},
                 child: const Text("Login",
                     style: TextStyle(color: Colors.white, fontSize: 18))),
+            Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  TextButton(
+                      onPressed: () {},
+                      child: const Text("Forget Password?",
+                          style: TextStyle(fontSize: 14, color: Colors.black)))
+                ]),
             const SizedBox(height: 17),
             const Padding(
                 padding: EdgeInsets.only(left: 10, right: 10),
