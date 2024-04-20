@@ -1,4 +1,4 @@
-import 'package:app_auth_2024/screens/login_screen.dart';
+import 'package:app_auth_2024/screens/login_main.dart';
 import 'package:flutter/material.dart';
 
 class AppRun extends StatelessWidget {
@@ -9,6 +9,6 @@ class AppRun extends StatelessWidget {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Screen Auth App',
-        home: LoginScreen());
+        home: LoginScreenMain());
   }
 }

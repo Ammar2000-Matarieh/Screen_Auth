@@ -120,10 +120,10 @@ class _LoginWidgetState extends State<LoginWidget> {
                       children: [
                         ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                side: BorderSide(color: Colors.black),
+                                side: const BorderSide(color: Colors.black),
                                 elevation: 0,
                                 backgroundColor: Colors.white,
-                                minimumSize: Size(170, 48),
+                                minimumSize: const Size(170, 48),
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(9))),
                             onPressed: () {},
@@ -138,7 +138,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                 side: const BorderSide(color: Colors.black),
                                 elevation: 0,
                                 backgroundColor: Colors.white,
-                                minimumSize: Size(170, 48),
+                                minimumSize: const Size(170, 48),
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(9))),
                             onPressed: () {},
@@ -148,7 +148,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                               Text("Gmail")
                             ]))
                       ])),
-                            SizedBox(height: 60),
+                            const SizedBox(height: 60),
                             Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -156,7 +156,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                     const Text("Not signed up yet? ",
                         style: TextStyle(fontSize: 14, color: Colors.black)),
                     const SizedBox(width: 4),
-                    TextButton(onPressed: () {}, child: Text("Register"))
+                    TextButton(onPressed: () {}, child: const Text("Register"))
                   ])
                           ]),
               ))));
