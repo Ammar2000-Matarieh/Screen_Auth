@@ -5,7 +5,5 @@ class LoginScreenMain extends StatelessWidget {
   const LoginScreenMain({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const LoginWidgetMain();
-  }
+  Widget build(BuildContext context) => const LoginWidgetMain();
 }
