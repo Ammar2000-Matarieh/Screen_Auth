@@ -96,7 +96,9 @@ class _LoginWidgetMainState extends State<LoginWidgetMain> {
                       "Don't have an account? ",
                       style: TextStyle(fontSize: 15, color: Colors.black),
                     ),
-                    TextButton(onPressed: () {}, child: const Text("Register"))
+                    TextButton(onPressed: () {}, child: const Text("Register",style: TextStyle(
+                      color: Colors.blue
+                    ),))
                   ]),
             ],
           ),
